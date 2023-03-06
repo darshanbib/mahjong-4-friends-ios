@@ -26,8 +26,6 @@
 	<true/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Activity tracking supports our services by allowing us to deliver personalized advertisements. Your choice will not impact the quantity of advertisements you receive, however tracking increases their relevance to you and the proceeds we derive from them. </string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

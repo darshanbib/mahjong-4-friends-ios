@@ -266,5 +266,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Personalized ads better support us, and are more relevant to you. This will not change how many ads you receive.</string>
 </dict>
 </plist>

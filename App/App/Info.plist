@@ -50,7 +50,7 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>The microphone is used so you can enable audio chat with other players. </string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>Personalized ads better support us, and are more relevant to you. This will not change how many ads you receive.</string>
+	<string>Personalized ads better support us, and are more relevant to you.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

@@ -39,6 +39,8 @@ PODS:
   - CapacitorFirebaseRemoteConfig (5.1.0):
     - Capacitor
     - FirebaseRemoteConfig (= 10.8.0)
+  - CapacitorRateApp (4.0.3):
+    - Capacitor
   - CapacitorShare (5.0.6):
     - Capacitor
   - CapacitorSplashScreen (5.0.6):
@@ -166,6 +168,7 @@ DEPENDENCIES:
   - "CapacitorFirebaseAuthentication (from `../../node_modules/@capacitor-firebase/authentication`)"
   - "CapacitorFirebaseAuthentication/Google (from `../../node_modules/@capacitor-firebase/authentication`)"
   - "CapacitorFirebaseRemoteConfig (from `../../node_modules/@capacitor-firebase/remote-config`)"
+  - CapacitorRateApp (from `../../node_modules/capacitor-rate-app`)
   - "CapacitorShare (from `../../node_modules/@capacitor/share`)"
   - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
@@ -214,6 +217,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor-firebase/authentication"
   CapacitorFirebaseRemoteConfig:
     :path: "../../node_modules/@capacitor-firebase/remote-config"
+  CapacitorRateApp:
+    :path: "../../node_modules/capacitor-rate-app"
   CapacitorShare:
     :path: "../../node_modules/@capacitor/share"
   CapacitorSplashScreen:
@@ -240,6 +245,7 @@ SPEC CHECKSUMS:
   CapacitorFirebaseAnalytics: 8e42f3392e19f4331e21be373f4520412487bb69
   CapacitorFirebaseAuthentication: a90743b8923b81945c4b5c772b95de1f9c50820f
   CapacitorFirebaseRemoteConfig: 6fee43a7daa634432ab27e5aced1d69881fbe44a
+  CapacitorRateApp: 896df7ec6a237fea72d1955e0cb26394654b00db
   CapacitorShare: cd41743331cb71d217c029de54b681cbd91e0fcc
   CapacitorSplashScreen: 5fa2ab5e46cf5cc530cf16a51c80c7a986579ccd
   CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
@@ -265,6 +271,6 @@ SPEC CHECKSUMS:
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
 
-PODFILE CHECKSUM: 2f87a861f6bbebdc080fc7071112972f90506e10
+PODFILE CHECKSUM: fa0d79903b4d5a119572ec0f4a7bbed58a697eb6
 
 COCOAPODS: 1.12.1

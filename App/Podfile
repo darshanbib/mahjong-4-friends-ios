@@ -18,6 +18,7 @@ def capacitor_pods
   pod 'CapacitorFirebaseRemoteConfig', :path => '../../node_modules/@capacitor-firebase/remote-config'
   pod 'CapacitorFilesystem', :path => '../../node_modules/@capacitor/filesystem'
   pod 'CapawesomeCapacitorAppUpdate', :path => '../../node_modules/@capawesome/capacitor-app-update'
+  pod 'CapacitorRateApp', :path => '../../node_modules/capacitor-rate-app'
   pod 'CapacitorZoomAndroid', :path => '../../node_modules/capacitor-zoom-android'
   pod 'CapacitorApp', :path => '../../node_modules/@capacitor/app'
   pod 'CapacitorShare', :path => '../../node_modules/@capacitor/share'

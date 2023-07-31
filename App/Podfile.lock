@@ -12,9 +12,6 @@ PODS:
   - CapacitorCommunityAdmob (5.0.0):
     - Capacitor
     - Google-Mobile-Ads-SDK (= 10.1.0)
-  - CapacitorCommunityFirebaseAnalytics (5.0.1):
-    - Capacitor
-    - FirebaseAnalytics
   - CapacitorCommunityTextToSpeech (3.0.0):
     - Capacitor
   - CapacitorCordova (5.2.2)
@@ -161,7 +158,6 @@ DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
   - "CapacitorCommunityAdmob (from `../../node_modules/@capacitor-community/admob`)"
-  - "CapacitorCommunityFirebaseAnalytics (from `../../node_modules/@capacitor-community/firebase-analytics`)"
   - "CapacitorCommunityTextToSpeech (from `../../node_modules/@capacitor-community/text-to-speech`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
@@ -206,8 +202,6 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/app"
   CapacitorCommunityAdmob:
     :path: "../../node_modules/@capacitor-community/admob"
-  CapacitorCommunityFirebaseAnalytics:
-    :path: "../../node_modules/@capacitor-community/firebase-analytics"
   CapacitorCommunityTextToSpeech:
     :path: "../../node_modules/@capacitor-community/text-to-speech"
   CapacitorCordova:
@@ -240,7 +234,6 @@ SPEC CHECKSUMS:
   Capacitor: 070b18988e0f566728ae9a5eb3a7a974595f1626
   CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
   CapacitorCommunityAdmob: dfa5cf8cdd1d78c27b685d87413c51a91c761c69
-  CapacitorCommunityFirebaseAnalytics: a29279a99fad771ba307d9a07571372ea2f36b1f
   CapacitorCommunityTextToSpeech: 8ab921460746482ac9381170ea97a76b73f18049
   CapacitorCordova: 3773395d5331add072300ff6041ca2cf7b93cb0b
   CapacitorFilesystem: 38e85e56818420bed3f0aa1b77128f503a960821
@@ -272,6 +265,6 @@ SPEC CHECKSUMS:
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
 
-PODFILE CHECKSUM: 23337635ba5bded04da87e7c0de74aca85c5f7ef
+PODFILE CHECKSUM: 2f87a861f6bbebdc080fc7071112972f90506e10
 
 COCOAPODS: 1.12.1

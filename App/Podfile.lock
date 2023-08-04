@@ -251,7 +251,7 @@ SPEC CHECKSUMS:
   CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
   CapacitorZoomAndroid: 8af88fc54f2b1cf8e287f8471b617ab05b4b0dcb
   CapawesomeCapacitorAppUpdate: abbfaa26fe3817dce42bd722731acc23e7a3274c
-  CordovaPlugins: 82c2c5801e1bcf1c175090aece462df169d0c0f6
+  CordovaPlugins: a3b0a25fdd27cf9ced8790291769a07bebc22998
   CordovaPluginsResources: 1b3992e05cb6336d2850cd77dd5e3054f2f76f96
   FirebaseABTesting: 09c328e6a86d562b4e1146c8a9073deadc566b77
   FirebaseAnalytics: e1fc758bd5d71823bba970c076abee4b2450a5f4

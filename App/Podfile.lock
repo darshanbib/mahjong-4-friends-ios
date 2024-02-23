@@ -5,56 +5,54 @@ PODS:
   - AppAuth/Core (1.6.2)
   - AppAuth/ExternalUserAgent (1.6.2):
     - AppAuth/Core
-  - Capacitor (5.2.2):
+  - Capacitor (5.7.0):
     - CapacitorCordova
-  - CapacitorApp (5.0.6):
+  - CapacitorApp (5.0.7):
     - Capacitor
-  - CapacitorCommunityAdmob (5.0.0):
+  - CapacitorCommunityAdmob (5.3.1):
     - Capacitor
-    - Google-Mobile-Ads-SDK (= 10.1.0)
-  - CapacitorCommunityTextToSpeech (3.0.0):
+    - Google-Mobile-Ads-SDK (= 10.12.0)
+  - CapacitorCommunityTextToSpeech (3.0.1):
     - Capacitor
-  - CapacitorCordova (5.2.2)
-  - CapacitorFilesystem (5.1.1):
+  - CapacitorCordova (5.7.0)
+  - CapacitorFilesystem (5.2.1):
     - Capacitor
-  - CapacitorFirebaseAnalytics (5.1.0):
+  - CapacitorFirebaseAnalytics (5.4.1):
     - Capacitor
-    - CapacitorFirebaseAnalytics/Lite (= 5.1.0)
-  - CapacitorFirebaseAnalytics/Analytics (5.1.0):
+    - CapacitorFirebaseAnalytics/Lite (= 5.4.1)
+  - CapacitorFirebaseAnalytics/Analytics (5.4.1):
     - Capacitor
-    - FirebaseAnalytics (= 10.8.0)
-  - CapacitorFirebaseAnalytics/Lite (5.1.0):
+    - FirebaseAnalytics (~> 10.8)
+  - CapacitorFirebaseAnalytics/Lite (5.4.1):
     - Capacitor
-  - CapacitorFirebaseAuthentication (5.1.0):
+  - CapacitorFirebaseAuthentication (5.4.1):
     - Capacitor
-    - CapacitorFirebaseAuthentication/Lite (= 5.1.0)
-    - FirebaseAuth (= 10.8.0)
-  - CapacitorFirebaseAuthentication/Google (5.1.0):
+    - CapacitorFirebaseAuthentication/Lite (= 5.4.1)
+    - FirebaseAuth (~> 10.8)
+  - CapacitorFirebaseAuthentication/Google (5.4.1):
     - Capacitor
-    - FirebaseAuth (= 10.8.0)
+    - FirebaseAuth (~> 10.8)
     - GoogleSignIn (= 7.0.0)
-  - CapacitorFirebaseAuthentication/Lite (5.1.0):
+  - CapacitorFirebaseAuthentication/Lite (5.4.1):
     - Capacitor
-    - FirebaseAuth (= 10.8.0)
-  - CapacitorFirebaseRemoteConfig (5.1.0):
+    - FirebaseAuth (~> 10.8)
+  - CapacitorFirebaseRemoteConfig (5.4.1):
     - Capacitor
-    - FirebaseRemoteConfig (= 10.8.0)
+    - FirebaseRemoteConfig (~> 10.8)
   - CapacitorRateApp (4.0.3):
     - Capacitor
-  - CapacitorShare (5.0.6):
+  - CapacitorShare (5.0.7):
     - Capacitor
-  - CapacitorSplashScreen (5.0.6):
+  - CapacitorSplashScreen (5.0.7):
     - Capacitor
-  - CapacitorStatusBar (5.0.6):
+  - CapacitorStatusBar (5.0.7):
     - Capacitor
-  - CapacitorZoomAndroid (5.0.0):
+  - CapawesomeCapacitorAppUpdate (5.1.0):
     - Capacitor
-  - CapawesomeCapacitorAppUpdate (5.0.1):
-    - Capacitor
-  - CordovaPlugins (5.2.2):
+  - CordovaPlugins (6.0.0-rc.0):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
-  - FirebaseABTesting (10.12.0):
+  - FirebaseABTesting (10.16.0):
     - FirebaseCore (~> 10.0)
   - FirebaseAnalytics (10.8.0):
     - FirebaseAnalytics/AdIdSupport (= 10.8.0)
@@ -74,20 +72,20 @@ PODS:
     - GoogleUtilities/Network (~> 7.8)
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - FirebaseAppCheckInterop (10.12.0)
+  - FirebaseAppCheckInterop (10.16.0)
   - FirebaseAuth (10.8.0):
     - FirebaseAppCheckInterop (~> 10.0)
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/Environment (~> 7.8)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
-  - FirebaseCore (10.12.0):
+  - FirebaseCore (10.16.0):
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.8)
-  - FirebaseCoreInternal (10.12.0):
+  - FirebaseCoreInternal (10.16.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseInstallations (10.12.0):
+  - FirebaseInstallations (10.16.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
@@ -98,7 +96,7 @@ PODS:
     - FirebaseInstallations (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - Google-Mobile-Ads-SDK (10.1.0):
+  - Google-Mobile-Ads-SDK (10.12.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAppMeasurement (10.8.0):
@@ -126,24 +124,24 @@ PODS:
     - GTMAppAuth (< 3.0, >= 1.3)
     - GTMSessionFetcher/Core (< 4.0, >= 1.1)
   - GoogleUserMessagingPlatform (2.1.0)
-  - GoogleUtilities/AppDelegateSwizzler (7.11.4):
+  - GoogleUtilities/AppDelegateSwizzler (7.11.5):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.11.4):
+  - GoogleUtilities/Environment (7.11.5):
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.11.4):
+  - GoogleUtilities/Logger (7.11.5):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (7.11.4):
+  - GoogleUtilities/MethodSwizzler (7.11.5):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (7.11.4):
+  - GoogleUtilities/Network (7.11.5):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.11.4)"
-  - GoogleUtilities/Reachability (7.11.4):
+  - "GoogleUtilities/NSData+zlib (7.11.5)"
+  - GoogleUtilities/Reachability (7.11.5):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (7.11.4):
+  - GoogleUtilities/UserDefaults (7.11.5):
     - GoogleUtilities/Logger
   - GTMAppAuth (2.0.0):
     - AppAuth/Core (~> 1.6)
@@ -172,7 +170,6 @@ DEPENDENCIES:
   - "CapacitorShare (from `../../node_modules/@capacitor/share`)"
   - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
-  - CapacitorZoomAndroid (from `../../node_modules/capacitor-zoom-android`)
   - "CapawesomeCapacitorAppUpdate (from `../../node_modules/@capawesome/capacitor-app-update`)"
   - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
   - CordovaPluginsResources (from `../capacitor-cordova-ios-plugins`)
@@ -225,8 +222,6 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/splash-screen"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
-  CapacitorZoomAndroid:
-    :path: "../../node_modules/capacitor-zoom-android"
   CapawesomeCapacitorAppUpdate:
     :path: "../../node_modules/@capawesome/capacitor-app-update"
   CordovaPlugins:
@@ -236,41 +231,40 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
-  Capacitor: 070b18988e0f566728ae9a5eb3a7a974595f1626
-  CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
-  CapacitorCommunityAdmob: dfa5cf8cdd1d78c27b685d87413c51a91c761c69
-  CapacitorCommunityTextToSpeech: 8ab921460746482ac9381170ea97a76b73f18049
-  CapacitorCordova: 3773395d5331add072300ff6041ca2cf7b93cb0b
-  CapacitorFilesystem: 38e85e56818420bed3f0aa1b77128f503a960821
-  CapacitorFirebaseAnalytics: 8e42f3392e19f4331e21be373f4520412487bb69
-  CapacitorFirebaseAuthentication: a90743b8923b81945c4b5c772b95de1f9c50820f
-  CapacitorFirebaseRemoteConfig: 6fee43a7daa634432ab27e5aced1d69881fbe44a
+  Capacitor: fc155ee2ee45a2093d716f13cf5aa5a865e2d85a
+  CapacitorApp: 17fecd0e6cb23feafac7eb0939417389038b0979
+  CapacitorCommunityAdmob: 1e377ccfb6236c38591f23759334fa12668fb2e0
+  CapacitorCommunityTextToSpeech: a47d2746124fc06f1018791b3f154cfd2c5c4fe6
+  CapacitorCordova: e825fce1a2e14e4b5730641c7e098dccf74397b7
+  CapacitorFilesystem: 9f3e3c7fea2fff12f46dd5b07a2914f2103e4cfc
+  CapacitorFirebaseAnalytics: dfccb704820bb7db82debbc05fded24b096bed71
+  CapacitorFirebaseAuthentication: 4b5146252052345d7c0cd8147dd4f1372a65e99b
+  CapacitorFirebaseRemoteConfig: a20f5e883f99e7dd0c243a1e31a0418ea89f08a9
   CapacitorRateApp: 896df7ec6a237fea72d1955e0cb26394654b00db
-  CapacitorShare: cd41743331cb71d217c029de54b681cbd91e0fcc
-  CapacitorSplashScreen: 5fa2ab5e46cf5cc530cf16a51c80c7a986579ccd
-  CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
-  CapacitorZoomAndroid: 8af88fc54f2b1cf8e287f8471b617ab05b4b0dcb
-  CapawesomeCapacitorAppUpdate: abbfaa26fe3817dce42bd722731acc23e7a3274c
-  CordovaPlugins: a3b0a25fdd27cf9ced8790291769a07bebc22998
-  CordovaPluginsResources: 1b3992e05cb6336d2850cd77dd5e3054f2f76f96
-  FirebaseABTesting: 09c328e6a86d562b4e1146c8a9073deadc566b77
+  CapacitorShare: c6a1ebbf0114ff9e863b966cd6052678fa25d480
+  CapacitorSplashScreen: dd3de3f3644710fa2a697cfb91ec262eece4d242
+  CapacitorStatusBar: f390fbb49b82ffb754ea4b3cf71dc8b048baf3e7
+  CapawesomeCapacitorAppUpdate: 04f2c4b7942ccc72a86bcd553ab3c546df422838
+  CordovaPlugins: ee6670ad89dd24beb8314cfcce184784d8d52f1c
+  CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
+  FirebaseABTesting: 03f0a8b88cf618350527f2c6a2234e29b9c65064
   FirebaseAnalytics: e1fc758bd5d71823bba970c076abee4b2450a5f4
-  FirebaseAppCheckInterop: f95a4feb9089867aff1a4bdc2ce309137e07736a
+  FirebaseAppCheckInterop: 82358cff9f33452dd44259e88eea5e562500b1cb
   FirebaseAuth: 28e6fff787467cd15ab51c8c7aa904003b2f57aa
-  FirebaseCore: f86a1394906b97ac445ae49c92552a9425831bed
-  FirebaseCoreInternal: 950500ad8a08963657f6d8c67b579740c06d6aa1
-  FirebaseInstallations: 7b99ef103f013624444c614397038219c45f8e63
+  FirebaseCore: 65a801af84cca84361ef9eac3fd868656968a53b
+  FirebaseCoreInternal: 26233f705cc4531236818a07ac84d20c333e505a
+  FirebaseInstallations: b822f91a61f7d1ba763e5ccc9d4f2e6f2ed3b3ee
   FirebaseRemoteConfig: ffd8c40611809c92526783da146be93a15cc3f00
-  Google-Mobile-Ads-SDK: 894be2e3e3e8281004bda14381f9af7ad73eeffd
+  Google-Mobile-Ads-SDK: 976fdf273815674eed30b8aafffedb3c25b055e4
   GoogleAppMeasurement: 0ba93018e916f7badf915c2337d43cc1fa96b3f9
   GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
   GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
-  GoogleUtilities: c63691989bf362ba0505507da00eeb326192e83e
+  GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
   GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
   GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
 
-PODFILE CHECKSUM: fa0d79903b4d5a119572ec0f4a7bbed58a697eb6
+PODFILE CHECKSUM: ebbe82d413823ae1d22d4f9fd5a2ad77dcae2319
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.0

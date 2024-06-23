@@ -5,7 +5,7 @@ PODS:
   - AppAuth/Core (1.7.4)
   - AppAuth/ExternalUserAgent (1.7.4):
     - AppAuth/Core
-  - Capacitor (6.0.0):
+  - Capacitor (6.1.0):
     - CapacitorCordova
   - CapacitorApp (6.0.0):
     - Capacitor
@@ -14,9 +14,9 @@ PODS:
     - Google-Mobile-Ads-SDK (= 11.3.0)
   - CapacitorCommunityInAppReview (6.0.0):
     - Capacitor
-  - CapacitorCommunityTextToSpeech (4.0.0):
+  - CapacitorCommunityTextToSpeech (4.0.2):
     - Capacitor
-  - CapacitorCordova (6.0.0)
+  - CapacitorCordova (6.1.0)
   - CapacitorFilesystem (6.0.0):
     - Capacitor
   - CapacitorFirebaseAnalytics (6.0.0):
@@ -41,15 +41,17 @@ PODS:
   - CapacitorFirebaseRemoteConfig (6.0.0):
     - Capacitor
     - FirebaseRemoteConfig (~> 10.24)
-  - CapacitorShare (6.0.0):
+  - CapacitorInstallerInfo (6.0.2):
     - Capacitor
-  - CapacitorSplashScreen (6.0.0):
+  - CapacitorShare (6.0.1):
+    - Capacitor
+  - CapacitorSplashScreen (6.0.1):
     - Capacitor
   - CapacitorStatusBar (6.0.0):
     - Capacitor
   - CapawesomeCapacitorAppUpdate (6.0.0):
     - Capacitor
-  - CordovaPlugins (6.0.0):
+  - CordovaPlugins (6.1.0):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
   - FirebaseABTesting (10.24.0):
@@ -166,7 +168,13 @@ PODS:
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
   - PromisesObjC (2.4.0)
+  - PurchasesHybridCommon (10.6.1):
+    - RevenueCat (= 4.41.2)
   - RecaptchaInterop (100.0.0)
+  - RevenueCat (4.41.2)
+  - RevenuecatPurchasesCapacitor (8.0.0-beta.2):
+    - Capacitor
+    - PurchasesHybridCommon (= 10.6.1)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -181,12 +189,14 @@ DEPENDENCIES:
   - "CapacitorFirebaseAuthentication (from `../../node_modules/@capacitor-firebase/authentication`)"
   - "CapacitorFirebaseAuthentication/Google (from `../../node_modules/@capacitor-firebase/authentication`)"
   - "CapacitorFirebaseRemoteConfig (from `../../node_modules/@capacitor-firebase/remote-config`)"
+  - CapacitorInstallerInfo (from `../../node_modules/capacitor-installer-info`)
   - "CapacitorShare (from `../../node_modules/@capacitor/share`)"
   - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
   - "CapawesomeCapacitorAppUpdate (from `../../node_modules/@capawesome/capacitor-app-update`)"
   - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
   - CordovaPluginsResources (from `../capacitor-cordova-ios-plugins`)
+  - "RevenuecatPurchasesCapacitor (from `../../node_modules/@revenuecat/purchases-capacitor`)"
 
 SPEC REPOS:
   trunk:
@@ -210,7 +220,9 @@ SPEC REPOS:
     - GTMSessionFetcher
     - nanopb
     - PromisesObjC
+    - PurchasesHybridCommon
     - RecaptchaInterop
+    - RevenueCat
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -233,6 +245,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor-firebase/authentication"
   CapacitorFirebaseRemoteConfig:
     :path: "../../node_modules/@capacitor-firebase/remote-config"
+  CapacitorInstallerInfo:
+    :path: "../../node_modules/capacitor-installer-info"
   CapacitorShare:
     :path: "../../node_modules/@capacitor/share"
   CapacitorSplashScreen:
@@ -245,24 +259,27 @@ EXTERNAL SOURCES:
     :path: "../capacitor-cordova-ios-plugins"
   CordovaPluginsResources:
     :path: "../capacitor-cordova-ios-plugins"
+  RevenuecatPurchasesCapacitor:
+    :path: "../../node_modules/@revenuecat/purchases-capacitor"
 
 SPEC CHECKSUMS:
   AppAuth: 182c5b88630569df5acb672720534756c29b3358
-  Capacitor: 559d073c4ca6c27f8e7002c807eea94c3ba435a9
+  Capacitor: 187bd7847b6f71467015a20200a1a071be3e5f14
   CapacitorApp: 9d53aec7101f7b030a950c5bdc4df8612576b279
   CapacitorCommunityAdmob: 59456f0c29033d710ef90ef81044ad0eeab3caf6
   CapacitorCommunityInAppReview: c69a9392f39a10f28092d823cfa979637f4fa079
-  CapacitorCommunityTextToSpeech: 01006ca642440323372afb2d9b684815495c210d
-  CapacitorCordova: 8c4bfdf69368512e85b1d8b724dd7546abeb30af
+  CapacitorCommunityTextToSpeech: b0a80a310596ef2f634c21b03d07880a5f3559f4
+  CapacitorCordova: be703980ca797f847c3356f78fa175d21c8330c2
   CapacitorFilesystem: 60e59ba274c234a979e7a3be2552feaadcee4263
   CapacitorFirebaseAnalytics: ce6ce6b5f29c7df937d9bb0cbcd1af001e16fd80
   CapacitorFirebaseAuthentication: 8c75784e96c4106ebab9da2fc022366bca661451
   CapacitorFirebaseRemoteConfig: 59c086a129f693c9c00812d6d10ffcd8eedc2a3a
-  CapacitorShare: a771200d3b924a5d7ad9d9fecbac517e4c0aa74f
-  CapacitorSplashScreen: 5431ab8d19c1c6e95777d53bfaa7a36a6c3d94c7
+  CapacitorInstallerInfo: 5601b4edfe8f800e8f19dac6b67734dd8e1dc14c
+  CapacitorShare: 02222f2457ff003e642370a9c1ecd101baaa27c8
+  CapacitorSplashScreen: 61645214e8f955ff2b80f16a6a3648960fe4c89f
   CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
   CapawesomeCapacitorAppUpdate: 3c05b5c8e42f9c6a88d666093406e9336d9bfdb1
-  CordovaPlugins: eea96a447736ca2ee65cde7dc6c265219cbf7d94
+  CordovaPlugins: e6d039b36dd2b92836758bf17d862bd4b09ab564
   CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
   FirebaseABTesting: 4431c2c56ac6e56f463b9cab05cc111078639f99
   FirebaseAnalytics: b5efc493eb0f40ec560b04a472e3e1a15d39ca13
@@ -283,8 +300,11 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 8000756fc1c19d2e5697b90311f7832d2e33f6cd
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  PurchasesHybridCommon: 465af21945a10dda051b725933a1fd7b7c2d2a07
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  RevenueCat: 0250867579677899de94f96ad9be342be865560f
+  RevenuecatPurchasesCapacitor: 415aee183fbe2b9688a60b2424a0489f98daacc8
 
-PODFILE CHECKSUM: e44203a882b9faa273bd175a7f24c0e63a2a1f76
+PODFILE CHECKSUM: b6cc8299d8a528a8165856df49772bfc5d630617
 
 COCOAPODS: 1.15.2

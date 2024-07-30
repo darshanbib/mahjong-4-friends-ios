@@ -1,11 +1,11 @@
 PODS:
-  - AppAuth (1.7.4):
-    - AppAuth/Core (= 1.7.4)
-    - AppAuth/ExternalUserAgent (= 1.7.4)
-  - AppAuth/Core (1.7.4)
-  - AppAuth/ExternalUserAgent (1.7.4):
+  - AppAuth (1.7.5):
+    - AppAuth/Core (= 1.7.5)
+    - AppAuth/ExternalUserAgent (= 1.7.5)
+  - AppAuth/Core (1.7.5)
+  - AppAuth/ExternalUserAgent (1.7.5):
     - AppAuth/Core
-  - Capacitor (6.1.0):
+  - Capacitor (6.1.1):
     - CapacitorCordova
   - CapacitorApp (6.0.0):
     - Capacitor
@@ -14,33 +14,33 @@ PODS:
     - Google-Mobile-Ads-SDK (= 11.3.0)
   - CapacitorCommunityInAppReview (6.0.0):
     - Capacitor
-  - CapacitorCommunityTextToSpeech (4.0.2):
+  - CapacitorCommunityTextToSpeech (4.1.0):
     - Capacitor
-  - CapacitorCordova (6.1.0)
+  - CapacitorCordova (6.1.1)
   - CapacitorFilesystem (6.0.0):
     - Capacitor
-  - CapacitorFirebaseAnalytics (6.0.0):
+  - CapacitorFirebaseAnalytics (6.1.0):
     - Capacitor
-    - CapacitorFirebaseAnalytics/Lite (= 6.0.0)
-  - CapacitorFirebaseAnalytics/Analytics (6.0.0):
+    - CapacitorFirebaseAnalytics/Lite (= 6.1.0)
+  - CapacitorFirebaseAnalytics/Analytics (6.1.0):
     - Capacitor
-    - FirebaseAnalytics (~> 10.24)
-  - CapacitorFirebaseAnalytics/Lite (6.0.0):
+    - FirebaseAnalytics (~> 10.25)
+  - CapacitorFirebaseAnalytics/Lite (6.1.0):
     - Capacitor
-  - CapacitorFirebaseAuthentication (6.0.0):
+  - CapacitorFirebaseAuthentication (6.1.0):
     - Capacitor
-    - CapacitorFirebaseAuthentication/Lite (= 6.0.0)
-    - FirebaseAuth (~> 10.24)
-  - CapacitorFirebaseAuthentication/Google (6.0.0):
+    - CapacitorFirebaseAuthentication/Lite (= 6.1.0)
+    - FirebaseAuth (~> 10.25)
+  - CapacitorFirebaseAuthentication/Google (6.1.0):
     - Capacitor
-    - FirebaseAuth (~> 10.24)
+    - FirebaseAuth (~> 10.25)
     - GoogleSignIn (= 7.0.0)
-  - CapacitorFirebaseAuthentication/Lite (6.0.0):
+  - CapacitorFirebaseAuthentication/Lite (6.1.0):
     - Capacitor
-    - FirebaseAuth (~> 10.24)
-  - CapacitorFirebaseRemoteConfig (6.0.0):
+    - FirebaseAuth (~> 10.25)
+  - CapacitorFirebaseRemoteConfig (6.1.0):
     - Capacitor
-    - FirebaseRemoteConfig (~> 10.24)
+    - FirebaseRemoteConfig (~> 10.25)
   - CapacitorInstallerInfo (6.0.2):
     - Capacitor
   - CapacitorShare (6.0.1):
@@ -51,13 +51,13 @@ PODS:
     - Capacitor
   - CapawesomeCapacitorAppUpdate (6.0.0):
     - Capacitor
-  - CordovaPlugins (6.1.0):
+  - CordovaPlugins (6.1.1):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
-  - FirebaseABTesting (10.24.0):
+  - FirebaseABTesting (10.29.0):
     - FirebaseCore (~> 10.0)
-  - FirebaseAnalytics (10.24.0):
-    - FirebaseAnalytics/AdIdSupport (= 10.24.0)
+  - FirebaseAnalytics (10.29.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.29.0)
     - FirebaseCore (~> 10.0)
     - FirebaseInstallations (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
@@ -65,35 +65,35 @@ PODS:
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
-  - FirebaseAnalytics/AdIdSupport (10.24.0):
+  - FirebaseAnalytics/AdIdSupport (10.29.0):
     - FirebaseCore (~> 10.0)
     - FirebaseInstallations (~> 10.0)
-    - GoogleAppMeasurement (= 10.24.0)
+    - GoogleAppMeasurement (= 10.29.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
-  - FirebaseAppCheckInterop (10.24.0)
-  - FirebaseAuth (10.24.0):
+  - FirebaseAppCheckInterop (10.29.0)
+  - FirebaseAuth (10.29.0):
     - FirebaseAppCheckInterop (~> 10.17)
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/Environment (~> 7.8)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
     - RecaptchaInterop (~> 100.0)
-  - FirebaseCore (10.24.0):
+  - FirebaseCore (10.29.0):
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.12)
     - GoogleUtilities/Logger (~> 7.12)
-  - FirebaseCoreInternal (10.24.0):
+  - FirebaseCoreInternal (10.29.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseInstallations (10.24.0):
+  - FirebaseInstallations (10.29.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
     - PromisesObjC (~> 2.1)
-  - FirebaseRemoteConfig (10.24.0):
+  - FirebaseRemoteConfig (10.29.0):
     - FirebaseABTesting (~> 10.0)
     - FirebaseCore (~> 10.0)
     - FirebaseInstallations (~> 10.0)
@@ -101,25 +101,25 @@ PODS:
     - FirebaseSharedSwift (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseRemoteConfigInterop (10.24.0)
-  - FirebaseSharedSwift (10.24.0)
+  - FirebaseRemoteConfigInterop (10.29.0)
+  - FirebaseSharedSwift (10.29.0)
   - Google-Mobile-Ads-SDK (11.3.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAppMeasurement (10.24.0):
-    - GoogleAppMeasurement/AdIdSupport (= 10.24.0)
+  - GoogleAppMeasurement (10.29.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.29.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (10.24.0):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.24.0)
+  - GoogleAppMeasurement/AdIdSupport (10.29.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.29.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (10.24.0):
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.29.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
@@ -129,39 +129,39 @@ PODS:
     - AppAuth (~> 1.5)
     - GTMAppAuth (< 3.0, >= 1.3)
     - GTMSessionFetcher/Core (< 4.0, >= 1.1)
-  - GoogleUserMessagingPlatform (2.3.0)
-  - GoogleUtilities/AppDelegateSwizzler (7.13.0):
+  - GoogleUserMessagingPlatform (2.5.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.13.3):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Environment (7.13.0):
+  - GoogleUtilities/Environment (7.13.3):
     - GoogleUtilities/Privacy
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.13.0):
+  - GoogleUtilities/Logger (7.13.3):
     - GoogleUtilities/Environment
     - GoogleUtilities/Privacy
-  - GoogleUtilities/MethodSwizzler (7.13.0):
+  - GoogleUtilities/MethodSwizzler (7.13.3):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Network (7.13.0):
+  - GoogleUtilities/Network (7.13.3):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Privacy
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.13.0)":
+  - "GoogleUtilities/NSData+zlib (7.13.3)":
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Privacy (7.13.0)
-  - GoogleUtilities/Reachability (7.13.0):
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/Reachability (7.13.3):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - GoogleUtilities/UserDefaults (7.13.0):
+  - GoogleUtilities/UserDefaults (7.13.3):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
   - GTMAppAuth (2.0.0):
     - AppAuth/Core (~> 1.6)
     - GTMSessionFetcher/Core (< 4.0, >= 1.5)
-  - GTMSessionFetcher/Core (3.4.1)
+  - GTMSessionFetcher/Core (3.5.0)
   - nanopb (2.30910.0):
     - nanopb/decode (= 2.30910.0)
     - nanopb/encode (= 2.30910.0)
@@ -263,41 +263,41 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@revenuecat/purchases-capacitor"
 
 SPEC CHECKSUMS:
-  AppAuth: 182c5b88630569df5acb672720534756c29b3358
-  Capacitor: 187bd7847b6f71467015a20200a1a071be3e5f14
+  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
+  Capacitor: 8941aba4364ba9d1b22188569001f2ce45cc2b00
   CapacitorApp: 9d53aec7101f7b030a950c5bdc4df8612576b279
   CapacitorCommunityAdmob: 59456f0c29033d710ef90ef81044ad0eeab3caf6
   CapacitorCommunityInAppReview: c69a9392f39a10f28092d823cfa979637f4fa079
-  CapacitorCommunityTextToSpeech: b0a80a310596ef2f634c21b03d07880a5f3559f4
-  CapacitorCordova: be703980ca797f847c3356f78fa175d21c8330c2
+  CapacitorCommunityTextToSpeech: 88444f34e417c0fcac6ce474fdae9fa8e03fddba
+  CapacitorCordova: 8f2cc8d8d3619c566e9418fe8772064a94266106
   CapacitorFilesystem: 60e59ba274c234a979e7a3be2552feaadcee4263
-  CapacitorFirebaseAnalytics: ce6ce6b5f29c7df937d9bb0cbcd1af001e16fd80
-  CapacitorFirebaseAuthentication: 8c75784e96c4106ebab9da2fc022366bca661451
-  CapacitorFirebaseRemoteConfig: 59c086a129f693c9c00812d6d10ffcd8eedc2a3a
+  CapacitorFirebaseAnalytics: 522dfd536bf9c3965781e7620fa9c7db568ccd86
+  CapacitorFirebaseAuthentication: 731483d98bf879a1c1b071c1efedd4bd5b0da6f2
+  CapacitorFirebaseRemoteConfig: 19f2246fb3a2e45e1c8cb919dc6c88ec7993247e
   CapacitorInstallerInfo: 5601b4edfe8f800e8f19dac6b67734dd8e1dc14c
   CapacitorShare: 02222f2457ff003e642370a9c1ecd101baaa27c8
   CapacitorSplashScreen: 61645214e8f955ff2b80f16a6a3648960fe4c89f
   CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
   CapawesomeCapacitorAppUpdate: 3c05b5c8e42f9c6a88d666093406e9336d9bfdb1
-  CordovaPlugins: e6d039b36dd2b92836758bf17d862bd4b09ab564
+  CordovaPlugins: 56edf557703d8da4ad6b774fd57011cb58b710e9
   CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
-  FirebaseABTesting: 4431c2c56ac6e56f463b9cab05cc111078639f99
-  FirebaseAnalytics: b5efc493eb0f40ec560b04a472e3e1a15d39ca13
-  FirebaseAppCheckInterop: fecc08c89936c8acb1428d8088313aabedb348e4
-  FirebaseAuth: 711d01cccefaf10035b3090a92956d0dd4f99088
-  FirebaseCore: 11dc8a16dfb7c5e3c3f45ba0e191a33ac4f50894
-  FirebaseCoreInternal: bcb5acffd4ea05e12a783ecf835f2210ce3dc6af
-  FirebaseInstallations: 8f581fca6478a50705d2bd2abd66d306e0f5736e
-  FirebaseRemoteConfig: 95dddc50496b37eef199dadce850d5652b534b43
-  FirebaseRemoteConfigInterop: 6c349a466490aeace3ce9c091c86be1730711634
-  FirebaseSharedSwift: 76e1529c32101d80e4f1ca2fba7c39d59f0a390a
+  FirebaseABTesting: d87f56707159bae64e269757a6e963d490f2eebe
+  FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
+  FirebaseAppCheckInterop: 6a1757cfd4067d8e00fccd14fcc1b8fd78cfac07
+  FirebaseAuth: e2ebfaf9fb4638a1c9a3b0efd17d1b90943987cd
+  FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
+  FirebaseCoreInternal: df84dd300b561c27d5571684f389bf60b0a5c934
+  FirebaseInstallations: 913cf60d0400ebd5d6b63a28b290372ab44590dd
+  FirebaseRemoteConfig: 48ef3f243742a8d72422ccfc9f986e19d7de53fd
+  FirebaseRemoteConfigInterop: 6efda51fb5e2f15b16585197e26eaa09574e8a4d
+  FirebaseSharedSwift: 20530f495084b8d840f78a100d8c5ee613375f6e
   Google-Mobile-Ads-SDK: 301a16c461c331ba34ff4dab40a22ab7c147af61
-  GoogleAppMeasurement: f3abf08495ef2cba7829f15318c373b8d9226491
+  GoogleAppMeasurement: f9de05ee17401e3355f68e8fc8b5064d429f5918
   GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
-  GoogleUserMessagingPlatform: b1ad7bb1ee3ce64749d4fec24f667b36e45c396c
-  GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
+  GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
-  GTMSessionFetcher: 8000756fc1c19d2e5697b90311f7832d2e33f6cd
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PurchasesHybridCommon: 465af21945a10dda051b725933a1fd7b7c2d2a07
@@ -305,6 +305,6 @@ SPEC CHECKSUMS:
   RevenueCat: 0250867579677899de94f96ad9be342be865560f
   RevenuecatPurchasesCapacitor: 415aee183fbe2b9688a60b2424a0489f98daacc8
 
-PODFILE CHECKSUM: b6cc8299d8a528a8165856df49772bfc5d630617
+PODFILE CHECKSUM: 97f1e6bfd95f8a13a6bff2a9320c84f6ed5e7148
 
 COCOAPODS: 1.15.2

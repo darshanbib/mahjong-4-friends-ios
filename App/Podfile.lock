@@ -5,19 +5,19 @@ PODS:
   - AppAuth/Core (1.7.5)
   - AppAuth/ExternalUserAgent (1.7.5):
     - AppAuth/Core
-  - Capacitor (6.1.1):
+  - Capacitor (6.1.2):
     - CapacitorCordova
-  - CapacitorApp (6.0.0):
+  - CapacitorApp (6.0.1):
     - Capacitor
   - CapacitorCommunityAdmob (6.0.0):
     - Capacitor
     - Google-Mobile-Ads-SDK (= 11.3.0)
   - CapacitorCommunityInAppReview (6.0.0):
     - Capacitor
-  - CapacitorCommunityTextToSpeech (4.1.0):
+  - CapacitorCommunityTextToSpeech (5.0.0):
     - Capacitor
-  - CapacitorCordova (6.1.1)
-  - CapacitorFilesystem (6.0.0):
+  - CapacitorCordova (6.1.2)
+  - CapacitorFilesystem (6.0.1):
     - Capacitor
   - CapacitorFirebaseAnalytics (6.1.0):
     - Capacitor
@@ -43,15 +43,15 @@ PODS:
     - FirebaseRemoteConfig (~> 10.25)
   - CapacitorInstallerInfo (6.0.2):
     - Capacitor
-  - CapacitorShare (6.0.1):
+  - CapacitorShare (6.0.2):
     - Capacitor
-  - CapacitorSplashScreen (6.0.1):
+  - CapacitorSplashScreen (6.0.2):
     - Capacitor
-  - CapacitorStatusBar (6.0.0):
+  - CapacitorStatusBar (6.0.1):
     - Capacitor
   - CapawesomeCapacitorAppUpdate (6.0.0):
     - Capacitor
-  - CordovaPlugins (6.1.1):
+  - CordovaPlugins (6.1.2):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
   - FirebaseABTesting (10.29.0):
@@ -129,7 +129,7 @@ PODS:
     - AppAuth (~> 1.5)
     - GTMAppAuth (< 3.0, >= 1.3)
     - GTMSessionFetcher/Core (< 4.0, >= 1.1)
-  - GoogleUserMessagingPlatform (2.5.0)
+  - GoogleUserMessagingPlatform (2.6.0)
   - GoogleUtilities/AppDelegateSwizzler (7.13.3):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -168,13 +168,13 @@ PODS:
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
   - PromisesObjC (2.4.0)
-  - PurchasesHybridCommon (10.6.1):
-    - RevenueCat (= 4.41.2)
+  - PurchasesHybridCommon (13.3.0):
+    - RevenueCat (= 5.3.4)
   - RecaptchaInterop (100.0.0)
-  - RevenueCat (4.41.2)
-  - RevenuecatPurchasesCapacitor (8.0.0-beta.2):
+  - RevenueCat (5.3.4)
+  - RevenuecatPurchasesCapacitor (9.0.3):
     - Capacitor
-    - PurchasesHybridCommon (= 10.6.1)
+    - PurchasesHybridCommon (= 13.3.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -264,22 +264,22 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
-  Capacitor: 8941aba4364ba9d1b22188569001f2ce45cc2b00
-  CapacitorApp: 9d53aec7101f7b030a950c5bdc4df8612576b279
+  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
+  CapacitorApp: 0bc633b4eae40a1f32cd2834788fad3bc42da6a1
   CapacitorCommunityAdmob: 59456f0c29033d710ef90ef81044ad0eeab3caf6
   CapacitorCommunityInAppReview: c69a9392f39a10f28092d823cfa979637f4fa079
-  CapacitorCommunityTextToSpeech: 88444f34e417c0fcac6ce474fdae9fa8e03fddba
-  CapacitorCordova: 8f2cc8d8d3619c566e9418fe8772064a94266106
-  CapacitorFilesystem: 60e59ba274c234a979e7a3be2552feaadcee4263
+  CapacitorCommunityTextToSpeech: f254e5f80529a4d02d2c0812f6d168ec647948dd
+  CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  CapacitorFilesystem: 37fb3aa5c945b4539ab11c74a5c57925a302bf24
   CapacitorFirebaseAnalytics: 522dfd536bf9c3965781e7620fa9c7db568ccd86
   CapacitorFirebaseAuthentication: 731483d98bf879a1c1b071c1efedd4bd5b0da6f2
   CapacitorFirebaseRemoteConfig: 19f2246fb3a2e45e1c8cb919dc6c88ec7993247e
   CapacitorInstallerInfo: 5601b4edfe8f800e8f19dac6b67734dd8e1dc14c
-  CapacitorShare: 02222f2457ff003e642370a9c1ecd101baaa27c8
-  CapacitorSplashScreen: 61645214e8f955ff2b80f16a6a3648960fe4c89f
-  CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
+  CapacitorShare: 591ae4693d85686ceb590db8e8b44aa014ec6490
+  CapacitorSplashScreen: 250df9ef8014fac5c7c1fd231f0f8b1d8f0b5624
+  CapacitorStatusBar: b81d4fb5d4e0064c712018071b3ab4b810b39a63
   CapawesomeCapacitorAppUpdate: 3c05b5c8e42f9c6a88d666093406e9336d9bfdb1
-  CordovaPlugins: 56edf557703d8da4ad6b774fd57011cb58b710e9
+  CordovaPlugins: 63bd3a6e5626f584df4e2ced1ba3331673e82313
   CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
   FirebaseABTesting: d87f56707159bae64e269757a6e963d490f2eebe
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
@@ -294,16 +294,16 @@ SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 301a16c461c331ba34ff4dab40a22ab7c147af61
   GoogleAppMeasurement: f9de05ee17401e3355f68e8fc8b5064d429f5918
   GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
-  GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
+  GoogleUserMessagingPlatform: 0c3a08353e53ce8c2feab7addd0b652cde522450
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  PurchasesHybridCommon: 465af21945a10dda051b725933a1fd7b7c2d2a07
+  PurchasesHybridCommon: 801f03c7dde7acd35c4655247a992858c4ef6cdc
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
-  RevenueCat: 0250867579677899de94f96ad9be342be865560f
-  RevenuecatPurchasesCapacitor: 415aee183fbe2b9688a60b2424a0489f98daacc8
+  RevenueCat: 4ba0e585d42cdfc3fafce631c51ea9088053fae2
+  RevenuecatPurchasesCapacitor: ab0a5ecf3790125f800e57f73c57504abd6813fd
 
 PODFILE CHECKSUM: 97f1e6bfd95f8a13a6bff2a9320c84f6ed5e7148
 

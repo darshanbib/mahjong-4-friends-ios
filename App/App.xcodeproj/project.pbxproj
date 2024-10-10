@@ -100,7 +100,6 @@
 				1F6A609DF9B51076EB8239AA /* Pods-App.debug.xcconfig */,
 				7D59D2C65CA0B0084C80D551 /* Pods-App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -385,7 +384,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 9.0;
+				MARKETING_VERSION = 9.1;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahjong4friends.twa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +408,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 9.0;
+				MARKETING_VERSION = 9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahjong4friends.twa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";

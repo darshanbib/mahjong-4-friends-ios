@@ -54,7 +54,7 @@ PODS:
     - Capacitor
   - CapawesomeCapacitorAppUpdate (7.0.1):
     - Capacitor
-  - CordovaPlugins (7.1.0):
+  - CordovaPlugins (7.4.0):
     - CapacitorCordova
   - CordovaPluginsResources (0.0.105)
   - FirebaseABTesting (11.7.0):
@@ -292,8 +292,8 @@ SPEC CHECKSUMS:
   CapacitorSplashScreen: 1d67815a422a9b61539c94f283c08ed56667c0fc
   CapacitorStatusBar: 6e7af040d8fc4dd655999819625cae9c2d74c36f
   CapawesomeCapacitorAppUpdate: d1f04c1c870388248889908cf2ca960c7fdbf0ef
-  CordovaPlugins: a6747c15379d0373299ee4b648b88ee87dcf329d
-  CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
+  CordovaPlugins: 0c8427a48f52f98d5aa6d4def9162ea67dcc247c
+  CordovaPluginsResources: da93847212bf7b16ba770e4d6c3e7dba820174c7
   FirebaseABTesting: 08b3e19b28504632a9cd03e7a796b355c5d39b27
   FirebaseAnalytics: bc9e565af9044ba8d6c6e4157e4edca8e5fdf7ec
   FirebaseAppCheckInterop: 06fe5a3799278ae4667e6c432edd86b1030fa3df
